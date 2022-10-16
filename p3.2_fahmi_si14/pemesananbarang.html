@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+<body>
+    <div class="container" style="margin-left: 50px; margin-right: 50px; margin-top: 50px;">
+        <div style="border: 2px solid black; margin-left: 190px; margin-right: 190px;" align="center">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                        <a href="">Home &nbsp;|</a>
+                        </td>
+                        <td style="padding-left: 150px;">
+                        <a href="">Register &nbsp;|</a>
+                        </td>
+                        </td>
+                        <td style="padding-left: 150px;">
+                        <a href="">Policy &nbsp;|</a>
+                        </td>
+                        <td style="padding-left: 150px;">
+                        <a href="">About &nbsp;|</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    <form action="#" method="post">
+        <div style="display: flex; padding-top: 30px;">
+            <div>
+                <img src="mentahan/kaos.png" alt="photo" width="200px" height="200px"><br>
+                <font><input type="submit" name="submit" value="Upload Picture"></font>
+            </div>
+            <div style="padding-left: 50px;">
+    <div style="padding-left: 200px">
+        <table>
+    <br>
+    <label style="text-align: center;" for="id_title here">Title Here :</label>
+    <input type="text" title="title" id="id_title here">
+    <br>
+    Description: <textarea name="description"
+    id="id_description" 
+    cols="40" 
+    rows="5"
+    placeholder="No more than 400 characters long"
+    ></textarea>
+   <br> 
+    <label for="id_account number">Account Number :</label>
+    <input type="tel" name="account number" id="id_account number">
+    <br>
+    <label for="id_bank">Bank :</label>
+    <select name="Bank" id="id_bank" size="1">
+       <option>BRI</option>
+       <option>MANDIRI</option>
+       <option>BCA</option>
+    </select>
+    <br>
+    <label for="id_account holder">Account holder :</label>
+    <input type="text" title="account holder" id="id_account holder"> 
+    <br>
+    <label for="id_Transaction">Transaction :</label>
+    <input type="number" id="id_Transaction" size="1">
+    <br>
+    <font>*if the transactions for 3 person, choose 3 from the drop-down list</font>
+    <p>
+        <input type="checkbox" id="id_mobilephone">
+        <label for="id_mobilephone">send to mobile phone</label>
+        <br>
+        <input type="checkbox" id="id_email">
+        <label for="id_email">send to email</label>
+    </p>
+    <br>
+    <label for="id_Send to Mobile Phone">Send to Mobile Phone :</label>
+    <input type="text" name="Send to Mobile Phone" id="id_Send to Mobile Phone">
+    <br>
+    <label for="id_Send to Email">Send to Email :</label>
+    <input type="text" name="Send to Email" id="id_Send to Email">
+    <br><br><br>
+            <div align="center">
+                <input type="submit" name="submit" value="Generate Nobr Link">
+            </div>
+
+    </div>
+</body>
+</html>
